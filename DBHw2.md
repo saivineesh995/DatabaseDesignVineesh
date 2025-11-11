@@ -6,12 +6,12 @@ This folder contains the SQL script for the Registrationdatabase.
 
 ### Screenshot 1: SQL Script in Editor
 
-![SQL Script](./screenshots/Picture1.png)
+![SQL Script](./Screenshots/Picture1.png)
 
 ### Screenshot 1: SQL Script in Editor
 
-![SQL Script](./screenshots/Picture2.png)
+![SQL Script](./Screenshots/Picture2.png)
 
 ### Screenshot 2: Execution Result!
 
-![SQL Script](./screenshots/Picture3.png)
+![SQL Script](./Screenshots/Picture3.png)
