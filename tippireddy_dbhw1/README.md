@@ -8,7 +8,7 @@ This repository contains the first database design homework assignment, showcasi
 
 ### 1. Entity-Relationship (ER) Diagram
 
-![ER Diagram](<Screenshots/ER%20Daigram.png>)
+![ER Diagram](Screenshots/ER%20Daigram.png)
 
 - Visual representation of the database schema
 - Shows all entities and their relationships
@@ -18,7 +18,7 @@ This repository contains the first database design homework assignment, showcasi
 
 #### Hospital Table
 
-![Hospital Table](<Screenshots/hospital%20table.png>)
+![Hospital Table](Screenshots/hospital%20table.png)
 
 - Primary table structure for hospital data
 - Defines columns and data types
@@ -26,7 +26,7 @@ This repository contains the first database design homework assignment, showcasi
 
 ### 3. Table Creation
 
-![Create Table Screenshot](<Screenshots/create%20table%20screenshot.png>)
+![Create Table Screenshot](Screenshots/create%20table%20screenshot.png)
 
 - SQL `CREATE TABLE` statements
 - Column definitions with data types
@@ -36,7 +36,7 @@ This repository contains the first database design homework assignment, showcasi
 
 #### PostgreSQL CLI
 
-![PostgreSQL CLI](<Screenshots/CLI%20Postgresql%20screenshot.png>)
+![PostgreSQL CLI](Screenshots/CLI%20Postgresql%20screenshot.png)
 
 - Command-line interface interactions with PostgreSQL
 - Database connection and query execution

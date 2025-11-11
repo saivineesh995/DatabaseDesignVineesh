@@ -1,0 +1,16 @@
+# Root-level files - keep folder structure clean
+*.docx
+Screenshots/
+DBHw2.md
+tippireddy_dbhw2.sql.docx
+
+# System files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
