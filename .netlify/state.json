@@ -1,0 +1,20 @@
+{
+	"geolocation": {
+		"data": {
+			"city": "Oklahoma City",
+			"country": {
+				"code": "US",
+				"name": "United States"
+			},
+			"subdivision": {
+				"code": "OK",
+				"name": "Oklahoma"
+			},
+			"timezone": "America/Chicago",
+			"latitude": 35.4884,
+			"longitude": -97.5706,
+			"postalCode": "73107"
+		},
+		"timestamp": 1764626630140
+	}
+}
