@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Environment variables
 .env
 .env.local
@@ -14,11 +15,28 @@ dist/
 build/
 
 # IDE
+=======
+# Root-level files - keep folder structure clean
+*.docx
+Screenshots/
+DBHw2.md
+tippireddy_dbhw2.sql.docx
+
+# System files
+.DS_Store
+Thumbs.db
+
+# IDE files
+>>>>>>> 2c60e9c1bce8a98b2756adc2fe0271b060f44d80
 .vscode/
 .idea/
 *.swp
 *.swo
+<<<<<<< HEAD
 
 # OS
 .DS_Store
 Thumbs.db
+=======
+*~
+>>>>>>> 2c60e9c1bce8a98b2756adc2fe0271b060f44d80
