@@ -195,21 +195,21 @@
 <body>
     <div class="container">
         <header>
-            <h1>🅿️ Parking Lot Management</h1>
+            <h1>Parking Lot Management</h1>
             <p>Manage your parking spots efficiently</p>
         </header>
         
         <div class="content">
-            <!-- View All Spots -->
+            
             <div class="card">
                 <h2>All Parking Spots</h2>
-                <button onclick="loadAllSpots()">🔄 Refresh Spots</button>
+                <button onclick="loadAllSpots()">Refresh Spots</button>
                 <div id="spotsContainer" class="spots-grid">
                     <div class="loading">Click refresh to load parking spots...</div>
                 </div>
             </div>
             
-            <!-- Add New Spot -->
+           
             <div class="card">
                 <h2>Add New Spot</h2>
                 <div id="createMessage"></div>
@@ -238,12 +238,12 @@
                         <label for="customerId">Customer ID</label>
                         <input type="number" id="customerId">
                     </div>
-                    <button type="submit">➕ Add Spot</button>
+                    <button type="submit"> Add Spot</button>
                 </form>
             </div>
         </div>
         
-        <!-- Update Spot -->
+       
         <div class="card">
             <h2>Update Spot</h2>
             <div id="updateMessage"></div>
@@ -279,7 +279,7 @@
     <script>
         const API_BASE = '/.netlify/functions';
 
-        // Load all spots on page load
+        
         document.addEventListener('DOMContentLoaded', loadAllSpots);
 
         async function loadAllSpots() {
