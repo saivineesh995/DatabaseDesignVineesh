@@ -2,7 +2,7 @@ import { neon } from '@neondatabase/serverless';
 import { corsHeaders, createResponse } from './utils.mjs';
 
 export default async (req, context) => {
-  // Handle preflight requests
+  
   if (req.method === 'OPTIONS') {
     return new Response(null, { status: 204, headers: corsHeaders });
   }

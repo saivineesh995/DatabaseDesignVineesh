@@ -2,7 +2,7 @@ import { neon } from '@neondatabase/serverless';
 import { corsHeaders, createResponse } from './utils.mjs';
 
 export default async (req, context) => {
-  // Handle preflight requests
+
   if (req.method === 'OPTIONS') {
     return new Response(null, { status: 204, headers: corsHeaders });
   }
@@ -14,7 +14,7 @@ export default async (req, context) => {
     
     const body = await req.json();
     
-    // Validate required fields
+    
     if (!body.spot_number || !body.status) {
       return createResponse({ error: 'Missing required fields: spot_number, status' }, 400);
     }
